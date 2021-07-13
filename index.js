@@ -26,7 +26,7 @@ const postReducer = (state = nameData, action) => {
 const store = createStore(postReducer);
 
 // store 의 메소드 확인
-console.log(store);
+//console.log(store);
 
 // 수정 전 확인
 console.log(store.getState());
